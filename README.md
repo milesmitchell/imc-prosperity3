@@ -71,6 +71,6 @@ This repository uses the **MIT License** — feel free to fork, modify, or reuse
 
 ## 🤝 Connect
 
-If you liked our project, found this helpful, or are interested in discussing further, feel free to connect with me on [[LinkedIn](your-linkedin-url-here)!](https://www.linkedin.com/in/miles2/)
+If you liked our project, found this helpful, or are interested in discussing further, feel free to connect with me on LinkedIn (https://www.linkedin.com/in/miles2/)
 
 ---
