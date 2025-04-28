@@ -56,9 +56,9 @@ We also incorporated:
 
 | Metric | Result |
 |:---|:---|
-| Global Ranking | 🌍 238th / 12,620 teams |
+| Global Ranking Overall | 🌍 238th / 12,620 teams |
 | Final Round Score | 🚀 Top 0.25% Globally |
-| UK National Ranking (Final Round) | 🥉 3rd |
+| Final Round UK National Ranking | 🥉 3rd |
 
 ---
 
