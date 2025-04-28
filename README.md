@@ -2,7 +2,7 @@
 Team "Imperial Isle" Final Round Code for IMC Prosperity 3 Global Trading Challenge
 
 This repository contains our trading algorithm built for the **IMC Prosperity Challenge** — Round 5: *Imperial Isle*.
-Our team consisted of Miles Mitchell, Shane Reilly, Rohan Chadha, and Miji Trenkel
+Our team consisted of Miles Mitchell, Shane Reilly, Rohan Chadha, and Miji Trenkel.
 We are all MSc Financial Technology student at Imperial College London
 
 The bot implements several modular trading strategies across a variety of the available products, including options, ETPs, and commodities.
