@@ -76,7 +76,7 @@ We plan to return for Prosperity 4 aiming for a **Global top 25 finish** — arm
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 This bot is designed for the **IMC Prosperity 3 simulation framework**.
 
@@ -86,6 +86,7 @@ To use:
 
 ```bash
 pip install -r requirements.txt
+ ```
 
 ---
 
