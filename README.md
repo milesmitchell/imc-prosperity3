@@ -12,7 +12,7 @@ We are all studying MSc Financial Technology at Imperial College London
 This repository contains our code that helped us rank 29th Globally and 3rd in the UK in the Final Round of the competition, out of over 12,600 teams. The final round was a combination of all those prior and hence the most heavily weighted round of IMC's Global Trading Competition. We thoroughly enjoyed the competition and would like to extend our thanks to IMC for organising and running it this year. This was our first year competing, and now we are familiar with the competition structure we look forward to coming back and taking the Top25 spot next year.
 
 Our trading bot implements a **modular multi-product strategy suite**. Throughout the competition we experimented with:
-- Machine learning-driven trading signals by training models and adding decision tree logic manually due to library restrictions
+- Machine Learning-driven strategies, training sparse random forest models and adding decision tree logic manually due to library restrictions
 - Statistical arbitrage for ETPs (exchange-traded products)
 - Option pricing based on Black-Scholes + volatility skew adjustments
 - Dynamic Bollinger Bands reversion/momentum trading
