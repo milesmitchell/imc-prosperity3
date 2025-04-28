@@ -1309,6 +1309,8 @@ class Trader:
         desired_position = 0
         if self.entry_price and self.position_side:
             gain = (best_bid - self.entry_price) / self.entry_price if self.position_side == 'long' else (self.entry_price - best_ask) / self.entry_price
+            if self.position_side == 'long' and self.entry_tick is not None:
+                gain -= 0.001 * (state.timestamp - self.entry_tick) # Accounts for carry costs
             #print(f"Gain: {gain:.5f}")
 
             # === Stop Loss Check ===
