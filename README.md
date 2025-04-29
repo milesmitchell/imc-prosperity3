@@ -1,4 +1,4 @@
-# Imperial Isle Round 5 Trading Bot and Strategy Optimisation Notebook 🏝️
+# Imperial Isle Round 5 Trading Bot + Reversion Strategy Bayesian Optimisation Notebook 🏝️
 
 Final Round Code Submission for the **IMC Prosperity 3 Global Trading Challenge**  
 Our team consisted of **Miles Mitchell**, **Miji Trenkel**, **Rohan Chadha**, and **Shane Reilly**
