@@ -1,4 +1,4 @@
-# Imperial Isle Round 5 Trading Bot 🏝️
+# Imperial Isle Round 5 Trading Bot and Strategy Optimisation Notebook 🏝️
 
 Final Round Code Submission for the **IMC Prosperity 3 Global Trading Challenge**  
 Our team consisted of **Miles Mitchell**, **Miji Trenkel**, **Rohan Chadha**, and **Shane Reilly**
@@ -9,7 +9,7 @@ We are all studying MSc Financial Technology at Imperial College London
 
 ## 📚 About the Competition, our Experimentation, and Results
 
-This repository contains our code that helped us rank **top 2% globally overall** and rank 29th Globally (top 0.25%) and 3rd in the UK in the Final Round of the competition, out of over 12,600 teams. The final round was a combination of all those prior and hence the most heavily weighted round of IMC's Global Trading Competition. We thoroughly enjoyed the competition and would like to extend our thanks to IMC for organising and running it this year. This was our first year competing, and now we are familiar with the competition structure we look forward to coming back and taking the Top25 spot next year.
+This repository contains our code that helped us rank **top 2% globally overall** and more specifically rank 29th Globally (top 0.25%) and 3rd in the UK in the Final Round of the competition, out of over 12,600 teams. It also includes some of our most important optimisation code to explore the hyperparameter space effectively for mean reversion strategies. The final round was a combination of all those prior and hence the most heavily weighted round of IMC's Global Trading Competition. We thoroughly enjoyed the competition and would like to extend our thanks to IMC for organising and running it this year. This was our first year competing, and now we are familiar with the competition structure we look forward to coming back and taking the Top25 spot next year.
 
 Our trading bot implements a **modular multi-product strategy suite**. Throughout the competition we experimented with:
 - Machine Learning-driven strategies, training sparse random forest models and adding decision tree logic manually due to library restrictions
@@ -18,6 +18,18 @@ Our trading bot implements a **modular multi-product strategy suite**. Throughou
 - Dynamic Bollinger Bands reversion/momentum trading
 - Counterparty behavior tracking (e.g. Olivia informed trader detection)
 - Discretionary-inspired sunlight index trading
+
+**The optimisation notebook:** We also developed a separate parameter optimisation notebook to better understand how our Bollinger-style Z-Score Threshold strategy performed under different configurations.
+
+This notebook:
+
+Uses Bayesian Optimisation with Optuna to tune the rolling window length, z-threshold, and max volume per tick.
+
+Evaluates performance using either mean/median Sharpe ratio or cumulative return across multiple trading days.
+
+Visualises the optimisation surface in 3D from multiple angles, and fits a polynomial regression surface to analyse parameter momentum effects.
+
+Shows how performance varies with hyperparameters rather than attempting to generalise — prioritising exploration over prediction.
 
 ## Final Round Strategy Highlights
 
