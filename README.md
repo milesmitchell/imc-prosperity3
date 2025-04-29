@@ -48,7 +48,7 @@ Our final-round trading bot is modular and manages several independent but coord
 | **RAINFOREST_RESIN** | Market Making & Taking | Developed by teammates; Edge-optimised quoting around mid-wall prices |
 | **PICNIC_BASKETS** | ETF Arbitrage | Spread trading between baskets and constituents. Exploits mispricings based on reconstructed fair value indices |
 | **DJEMBES** | Mean reversion and dynamic spread adjustment | Simple momentum strategy |
-| **CROISSANTS** | Informed Trader Tracking | Developed tool to track effiency and sharpe, noting most/least efficient and highest/lowest sharpe for each instrument. Ultimately followed "Olivia"'s counterparty patterns entirely as they beat our previous results |
+| **CROISSANTS** | Informed Trader Tracking | Developed tool to track efficiency and sharpe of each trader, noting most/least efficient and highest/lowest sharpe for each instrument. Ultimately followed "Olivia"'s counterparty patterns entirely as they beat our previous results |
 | **MAGNIFICENT_MACARONS** | Sunlight-Driven Trading | Critical sunlight index found with dynamic take profit based on gradient magnitude. Momentum trading based on sunlight trends. Also incorporates opportunistic arbitrage between domestic and international prices |
 
 We also incorporated:
