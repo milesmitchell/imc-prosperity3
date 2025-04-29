@@ -3,7 +3,7 @@
 Final Round Code Submission for the **IMC Prosperity 3 Global Trading Challenge**  
 Our team consisted of **Miles Mitchell**, **Miji Trenkel**, **Rohan Chadha**, and **Shane Reilly**
 
-We are all studying MSc Financial Technology at Imperial College London
+We are all currently studying MSc Financial Technology at Imperial College London
 
 ---
 
