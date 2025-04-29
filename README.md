@@ -33,6 +33,8 @@ Notably, this notebook:
 
 4, Shows how performance varies with hyperparameters rather than attempting to generalise — prioritising exploration over prediction.
 
+**Important Note:** The purpose of this notebook is to explore the behaviour of the parameterised trading strategy across a limited but dense set of intraday data. **The purpose of this notebook is not to aim for robust out-of-sample generalisation**, rather the focus is on understanding how such a strategy responds to different parameter configurations and whether there are any trends in the hyperparamter space. The polynomial fit and corresponding R² help visualise and summarise optimisation trends across the space of hyperparameters, giving insight into momentum and mean-reversion characteristics rather than producing a predictive model.
+
 ## Final Round Strategy Highlights
 
 Our final-round trading bot is modular and manages several independent but coordinated strategies:
