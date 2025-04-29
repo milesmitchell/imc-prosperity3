@@ -11,7 +11,7 @@ We are all studying MSc Financial Technology at Imperial College London
 
 This repository contains our submitted code that helped us rank **top 2% globally overall** but more specifically rank 29th Globally (top 0.25%) and 3rd in the UK in the Final Round of the competition, out of over 12,600 teams. The repository also includes some of our most important optimisation code to explore the hyperparameter space effectively for mean reversion strategies. This helped us tune our parameters through the rounds for our z-score strategies, which made the bulk of our algorithmic profits. The final round was a combination of all those prior and hence the most heavily weighted round of IMC's Global Trading Competition. We thoroughly enjoyed the competition and would like to extend our thanks to IMC for both organising and running it this year. This was our first year competing, and now we are familiar with the competition structure we look forward to coming back and taking the overall Top25 spot next year.
 
-###Our trading bot:
+### Our trading bot:
 This implements a **modular multi-product strategy suite**. Throughout the competition we experimented with:
 - Machine Learning-driven strategies, training sparse random forest models and adding decision tree logic manually due to library restrictions
 - Statistical arbitrage for ETPs (exchange-traded products)
@@ -20,7 +20,7 @@ This implements a **modular multi-product strategy suite**. Throughout the compe
 - Counterparty behavior tracking (e.g. Olivia informed trader detection)
 - Discretionary-inspired sunlight index trading
 
-###My optimisation notebook: 
+### My optimisation notebook: 
 I also developed a separate intuitively customisable parameter optimisation notebook to better understand how our Bollinger-style Z-Score Threshold strategy performed under different parameter configurations, and to visualise trends as a polynomial surface in the hyperparameter space.
 
 Notably, this notebook:
