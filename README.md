@@ -13,7 +13,7 @@ This repository contains our submitted code that helped us rank **top 2% globall
 
 ### Our trading bot:
 This implements a **modular multi-product strategy suite**. Throughout the competition we experimented with:
-- Machine Learning-driven strategies, training sparse random forest models and adding decision tree logic manually due to library restrictions
+- Machine Learning-driven strategies, training sparse random forest models and then adding decision tree logic to live file manually due to library restrictions. We abandoned these methods for more effective momentum/reversion strategies after round2.
 - Statistical arbitrage for ETPs (exchange-traded products)
 - Option pricing based on Black-Scholes + volatility skew adjustments
 - Dynamic Bollinger Bands reversion/momentum trading
