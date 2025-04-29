@@ -9,9 +9,10 @@ We are all studying MSc Financial Technology at Imperial College London
 
 ## 📚 About the Competition, our Experimentation, and Results
 
-This repository contains our code that helped us rank **top 2% globally overall** and more specifically rank 29th Globally (top 0.25%) and 3rd in the UK in the Final Round of the competition, out of over 12,600 teams. It also includes some of our most important optimisation code to explore the hyperparameter space effectively for mean reversion strategies. The final round was a combination of all those prior and hence the most heavily weighted round of IMC's Global Trading Competition. We thoroughly enjoyed the competition and would like to extend our thanks to IMC for organising and running it this year. This was our first year competing, and now we are familiar with the competition structure we look forward to coming back and taking the Top25 spot next year.
+This repository contains our submitted code that helped us rank **top 2% globally overall** but more specifically rank 29th Globally (top 0.25%) and 3rd in the UK in the Final Round of the competition, out of over 12,600 teams. The repository also includes some of our most important optimisation code to explore the hyperparameter space effectively for mean reversion strategies. This helped us tune our parameters through the rounds for our z-score strategies, which made the bulk of our algorithmic profits. The final round was a combination of all those prior and hence the most heavily weighted round of IMC's Global Trading Competition. We thoroughly enjoyed the competition and would like to extend our thanks to IMC for both organising and running it this year. This was our first year competing, and now we are familiar with the competition structure we look forward to coming back and taking the overall Top25 spot next year.
 
-Our trading bot implements a **modular multi-product strategy suite**. Throughout the competition we experimented with:
+###Our trading bot:
+This implements a **modular multi-product strategy suite**. Throughout the competition we experimented with:
 - Machine Learning-driven strategies, training sparse random forest models and adding decision tree logic manually due to library restrictions
 - Statistical arbitrage for ETPs (exchange-traded products)
 - Option pricing based on Black-Scholes + volatility skew adjustments
@@ -19,17 +20,18 @@ Our trading bot implements a **modular multi-product strategy suite**. Throughou
 - Counterparty behavior tracking (e.g. Olivia informed trader detection)
 - Discretionary-inspired sunlight index trading
 
-**The optimisation notebook:** We also developed a separate parameter optimisation notebook to better understand how our Bollinger-style Z-Score Threshold strategy performed under different configurations.
+###My optimisation notebook: 
+I also developed a separate intuitively customisable parameter optimisation notebook to better understand how our Bollinger-style Z-Score Threshold strategy performed under different parameter configurations, and to visualise trends as a polynomial surface in the hyperparameter space.
 
-This notebook:
+Notably, this notebook:
 
-Uses Bayesian Optimisation with Optuna to tune the rolling window length, z-threshold, and max volume per tick.
+1, Uses Bayesian Optimisation with Optuna to tune the rolling window length, z-threshold, and max volume per tick.
 
-Evaluates performance using either mean/median Sharpe ratio or cumulative return across multiple trading days.
+2, Evaluates performance using either mean/median Sharpe ratio or cumulative return across multiple trading days.
 
-Visualises the optimisation surface in 3D from multiple angles, and fits a polynomial regression surface to analyse parameter momentum effects.
+3, Visualises the optimisation surface in 3D from multiple angles, and fits a polynomial regression surface to analyse parameter momentum effects.
 
-Shows how performance varies with hyperparameters rather than attempting to generalise — prioritising exploration over prediction.
+4, Shows how performance varies with hyperparameters rather than attempting to generalise — prioritising exploration over prediction.
 
 ## Final Round Strategy Highlights
 
