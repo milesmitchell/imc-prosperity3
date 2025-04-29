@@ -18,7 +18,7 @@ This implements a **modular multi-product strategy suite**. Throughout the compe
 - Option pricing based on Black-Scholes + volatility skew adjustments, and reversion strategies tracking the underlying for highly correlated ITM call options
 - Dynamic Bollinger Bands reversion/momentum trading
 - Counterparty behavior tracking (e.g. Olivia informed trader detection)
-- Discretionary-inspired sunlight index trading
+- Discretionary-elements, for example dynamic TP levels for macarons scaled by sunlight index gradient
 
 ### My optimisation notebook: 
 I also developed a separate intuitively customisable parameter optimisation notebook to better understand how our Bollinger-style Z-Score Threshold strategy performed under different parameter configurations, and to visualise trends as a polynomial surface in the hyperparameter space.
